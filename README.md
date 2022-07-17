@@ -48,4 +48,4 @@ The technologies used in this project are as follow:
 
 ## Contribute | Issues | Questions
 
-Any improvements in the project are very welcome and appreciated. For further questions or issues please contact me at my contact information shown in my profile.
+Any improvements in the project are very welcome and appreciated. For further information, questions or issues please reach me out at my contact information shown in my profile.
