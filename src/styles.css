@@ -1,0 +1,24 @@
+header {
+  background-color: #e84756;
+  color: white;
+  text-align: center;
+  height: 100px;
+  padding-top: 30px;
+  font-size: 28px;
+}
+.customContainer {
+  margin-top: 40px;
+}
+
+.customTitle {
+  background-color: #0177f7;
+  color: white;
+  padding: 20px;
+}
+
+ul {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  margin-left: 20px;
+}

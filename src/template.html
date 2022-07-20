@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Team Profile Generator</title>
+  </head>
+  <body>
+    <header>My Team</header>
+    <div class="container customContainer">
+      <div class="row">
+        <!-- Card for Manager -->
+        <div class="col-4 shadow-sm p-3 bg-body rounded customCard">
+          <div class="customTitle">
+            <h3>${this.name}</h3>
+            <h4>${this.title}</h4>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">ID: ${this.id}</li>
+            <li class="list-group-item">
+              Email: <a href="mailto:${this.email}">${this.email}</a>
+            </li>
+            <li class="list-group-item">Office number: ${this.office}</li>
+          </ul>
+        </div>
+
+        <!-- Card for Engineer -->
+        <div class="col-4 shadow-sm p-3 bg-body rounded customCard">
+          <div class="customTitle">
+            <h3>${this.name}</h3>
+            <h4>${this.title}</h4>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">ID: ${this.id}</li>
+            <li class="list-group-item">
+              Email: <a href="mailto:${this.email}">${this.email}</a>
+            </li>
+            <li class="list-group-item">
+              Github:
+              <a href="https://github.com/{this.github}" target="_blank"
+                >${this.github}</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card for Intern -->
+        <div class="col-4 shadow-sm p-3 bg-body rounded customCard">
+          <div class="customTitle">
+            <h3>${this.name}</h3>
+            <h4>${this.title}</h4>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">ID: ${this.id}</li>
+            <li class="list-group-item">
+              Email: <a href="mailto:${this.email}">${this.email}</a>
+            </li>
+            <li class="list-group-item">School: ${this.school}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
