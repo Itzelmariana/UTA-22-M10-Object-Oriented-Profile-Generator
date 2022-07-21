@@ -12,9 +12,9 @@ Acceptance Criteria
   - Engineer: name, ID, email, and GitHub username.
   - Intern: name, ID, email, and school
 
+- It generates HTML file when building the team is completed.
 - Email opens default email program and Github opens user in new tab.
 - It must pass test.
-- Finally, it generates HTML file when building the team is completed.
 
 ## Installation
 
@@ -34,7 +34,7 @@ The University of Texas at Austin. Material and instructions.
 
 This application is under the [MIT](https://opensource.org/licenses/MIT) license.
 
-## Features
+## Software
 
 The technologies used in this project are as follow:
 
