@@ -61,7 +61,7 @@ async function promptForTeamMembers(data) {
     {
       type: "input",
       name: "email",
-      message: "What is your manager's email",
+      message: "What is your manager's email?",
     },
     {
       type: "input",
@@ -95,7 +95,7 @@ async function promptForTeamMembers(data) {
     {
       type: "input",
       name: "email",
-      message: "What is the email of the engineer",
+      message: "What is the email of the engineer?",
     },
     {
       type: "input",
@@ -129,12 +129,12 @@ async function promptForTeamMembers(data) {
     {
       type: "input",
       name: "email",
-      message: "What is the email of the intern",
+      message: "What is the email of the intern?",
     },
     {
       type: "input",
       name: "school",
-      message: "What is the school of the intern",
+      message: "What is the school of the intern?",
     },
   ];
   for (var i = 0; i < numInterns; i++) {
