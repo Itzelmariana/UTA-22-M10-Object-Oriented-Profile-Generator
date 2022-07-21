@@ -13,8 +13,7 @@ Acceptance Criteria
   - Intern: name, ID, email, and school
 
 - Email opens default email program and Github opens user in new tab.
-
-- It will prompt enter manager info, add an engineer, an intern, go back to the menu or finish building my team.
+- It must pass test.
 - Finally, it generates HTML file when building the team is completed.
 
 ## Installation

@@ -1,14 +1,20 @@
 {
-  "name": "static-site",
+  "name": "team-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "watch": "nodemon index",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
